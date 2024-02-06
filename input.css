@@ -7,13 +7,13 @@
     width: 2000px;
     height: 300px;
     left: 30%;
-    @apply absolute rounded-full top-52 bg-softBlue;
+    @apply absolute rounded-full bg-softBlue;
   }
   .bg-tabs {
     width: 2000px;
     height: 300px;
     right: 60%;
-    @apply absolute rounded-r-full top-60 bg-softBlue;
+    @apply absolute rounded-r-full bg-softBlue;
   }
 }
 
@@ -76,3 +76,4 @@
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background-color: #fff;
 }
+

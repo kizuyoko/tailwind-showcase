@@ -18,7 +18,7 @@
       <div class="flex items-center justify-between my-6 space-x-20">
         <!-- Logo -->
         <div class="z-30">
-          <h1 class="text-2xl font-bold text-violet-800">Tailwind Showcase</h1>
+          <h1 id="logo" class="text-2xl font-bold text-violet-800">Tailwind Showcase</h1>
         </div>
 
         <!-- Menu Items -->
@@ -52,14 +52,30 @@
           <a href="#accordion" class="block hover:text-softRed">Accordion</a>
         </div>
         <div class="w-full py-3 text-center">
-          <a href="#" class="block hover:text-softRed">Login</a>
+          <a href="#contact" class="block hover:text-softRed">Contact</a>
         </div>
       </div>
     </nav>
 
+    <!-- Hero -->
+    <section id="hero" class="py-6 bg-gray-200">
+      <!-- Container For Image & Content -->
+      <div class="container px-6 mx-auto mt-16">
+        <div class="mx-auto lg:mx-0 lg:mb-0">
+          <h1 class="text-4xl font-semibold text-center lg:text-4xl">Hero</h1>
+          <img src="images/illustration-hero.svg" alt="" class="mx-auto mt-12"  />
+          <p class="text-center text-gray-800 lg:text-2xl lg:mx-0">Very Simple One Column</p>
 
-    <!-- Hero Section -->
-    <section id="hero">
+          <!-- Buttons Container -->
+          <div class="flex items-center justify-center w-full mx-auto mt-12 mb-6 space-x-4">
+            <a href="#" class="p-4 text-sm font-semibold text-white border-2 rounded shadow-md bg-softBlue border-softBlue md:text-base hover:bg-white hover:text-softBlue">Primary Button</a>
+          </div>
+        </div>        
+      </div>
+    </section>
+
+    <!-- Two Columns -->
+    <section id="twoColumns">
       <!-- Container For Image & Content -->
       <div class="container flex flex-col-reverse p-6 mx-auto lg:flex-row lg:mb-0">
         <!-- Content -->
@@ -75,12 +91,11 @@
         </div>
 
         <!-- Image -->
-        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
-          <div class="bg-hero"></div>
+        <div class="relative mx-auto mt-8 lg:mx-0 lg:mb-0 lg:w-1/2">
           <img
             src="images/illustration-hero.svg"
             alt=""
-            class="relative z-10 overflow-x-visible lg:top-24 xl:top-0"
+            class="relative z-10 overflow-x-visible"
           />
         </div>
       </div>
@@ -97,7 +112,6 @@
     <section id="tabs">
       <!-- Tabs/Panels Container -->
       <div class="container relative px-6 mx-auto my-6 mb-32">
-        <div class="bg-tabs"></div>
         <!-- Tabs Flex Container -->
         <div
           class="flex flex-col justify-center max-w-xl mx-auto mb-6 md:space-x-10 md:flex-row"
@@ -453,11 +467,12 @@
         <div
           class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue"
         >
-          <img src="images/logo-bookmark-footer.svg" alt="" class="mb-1" />
-
-          <a href="#features" class="uppercase hover:text-softRed">Features</a>
-          <a href="#download" class="uppercase hover:text-softRed">Download</a>
-          <a href="#faq" class="uppercase hover:text-softRed">FAQ</a>
+        <h1 class="text-2xl font-bold text-white">Tailwind Showcase</h1>
+          <a href="#hero" class="uppercase hover:text-softRed">Hero</a>
+          <a href="#twoColumns" class="uppercase hover:text-softRed">Two Columns</a>
+          <a href="#tabs" class="uppercase hover:text-softRed">Tabs</a>
+          
+          <a href="#accordion" class="uppercase hover:text-softRed">Accordion</a>
         </div>
 
         <!-- Social Container -->
