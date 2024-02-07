@@ -11,7 +11,7 @@
   }
 
   .tab-name {
-    @apply flex justify-center text-center text-gray-600 cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3;
+    @apply flex justify-center text-center text-black cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 text-2xl;
   }
   .tab-name div {
     @apply py-2;
