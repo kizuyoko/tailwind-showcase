@@ -20,10 +20,10 @@
     @apply flex flex-col py-5 md:flex-row md:space-x-7
   }
   .tab-content {
-    @apply flex flex-col space-y-8 md:w-1/2
+    @apply flex flex-col space-y-8 md:w-1/2 ml-6
   }
   .tab-content h3 {
-    @apply mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left;
+    @apply mt-2 text-3xl font-semibold text-center md:mt-0 md:text-left;
   }
   .tab-content p {
     @apply max-w-md text-center text-black md:text-left

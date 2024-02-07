@@ -672,7 +672,7 @@ video {
 }
 
 .tab-content h3 {
-  margin-top: 8rem;
+  margin-top: 2rem;
   text-align: center;
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -945,6 +945,11 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-gray {
+  --tw-border-opacity: 1;
+  border-color: rgb(140 140 140 / var(--tw-border-opacity));
 }
 
 .bg-gray-200 {
