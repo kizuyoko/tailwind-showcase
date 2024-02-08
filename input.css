@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @layer components {
+  .menu-d {
+    @apply tracking-widest hover:text-softRed font-bold
+  }
+  #menu div {
+    @apply w-full py-3 text-center
+  }
+  #menu a {
+    @apply block hover:text-softRed;
+  }
   .btn-primary {
     @apply px-6 py-3 mt-4 font-semibold text-white border-2 border-softBlue rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2
   }
@@ -10,7 +19,7 @@
     @apply px-6 py-3 mt-4 font-semibold text-black border-2 border-gray-300 rounded-lg md:inline-flex bg-gray-300 hover:bg-white hover:text-black hover:border-black hover:border-2
   }
   .tab-name {
-    @apply flex justify-center text-center text-black cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 md:text-2xl;
+    @apply flex justify-center text-center cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 md:text-2xl;
   }
   .tab-name div {
     @apply py-2;
@@ -25,7 +34,7 @@
     @apply mt-6 text-3xl font-semibold text-center md:mt-0 md:text-left;
   }
   .tab-content p {
-    @apply max-w-md text-center text-black md:text-left
+    @apply max-w-md text-center  md:text-left
   }
 }
 

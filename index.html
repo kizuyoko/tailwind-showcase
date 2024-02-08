@@ -22,10 +22,10 @@
         </div>
 
         <!-- Menu Items -->
-        <div class="items-center hidden space-x-10 text-gray-800 uppercase md:flex">
-          <a href="#grid" class="tracking-widest hover:text-softRed">Grid</a>
-          <a href="#tabs" class="tracking-widest hover:text-softRed">Tabs</a>
-          <a href="#accordion" class="tracking-widest hover:text-softRed">Accordion</a>
+        <div class="items-center hidden space-x-10 uppercase md:flex">
+          <a href="#grid" class="menu-d">Grid</a>
+          <a href="#tabs" class="menu-d">Tabs</a>
+          <a href="#accordion" class="menu-d">Accordion</a>
           <a href="#contact" class="mt-0 btn-secondary">Contact</a>
         </div>
         
@@ -42,18 +42,10 @@
         id="menu"
         class="fixed inset-0 z-20 flex-col items-center self-end hidden w-full h-full px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase m-h-screen opacity-90 bg-veryDarkBlue"
       >
-        <div class="w-full py-3 text-center">
-          <a href="#tabs" class="block hover:text-softRed">Tabs</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#accordion" class="block hover:text-softRed">Accordion</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#grid" class="block hover:text-softRed">Grid</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#contact" class="block hover:text-softRed">Contact</a>
-        </div>
+        <div><a href="#tabs">Tabs</a></div>
+        <div><a href="#accordion">Accordion</a></div>
+        <div><a href="#grid">Grid</a></div>
+        <div><a href="#contact">Contact</a></div>
       </div>
     </nav>
 
@@ -79,7 +71,7 @@
         <!-- Content -->
         <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
           <h1 class="mt-6 text-4xl font-semibold text-center lg:text-4xl lg:text-left ">Two Columns, Image Left</h1>
-          <p class="max-w-md mx-auto text-lg text-center text-black lg:text-2xl lg:text-left lg:mx-0">Image-Text, Vertically in mobile.</p>
+          <p class="max-w-md mx-auto text-lg text-centerlg:text-2xl lg:text-left lg:mx-0">Image-Text, Vertically in mobile.</p>
 
           <!-- Buttons Container -->
           <div class="flex items-center justify-center w-full space-x-4 lg:justify-start">
@@ -103,7 +95,7 @@
     <section id="grid">
       <div class="container px-6 mx-auto mt-16">
         <h2 class="mt-6 mb-6 text-4xl font-semibold text-center">Grid</h2>
-        <p class="max-w-lg px-6 mx-auto mb-6 text-lg text-center text-black lg:text-2xl">
+        <p class="max-w-lg px-6 mx-auto mb-6 text-lg text-center lg:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </section>
@@ -177,7 +169,7 @@
     <section id="tabs">
       <div class="container px-6 mx-auto mt-16">
         <h2 class="mt-6 mb-6 text-4xl font-semibold text-center">Tabs</h2>
-        <p class="max-w-lg px-6 mx-auto text-lg text-center text-black md:mb-6 lg:text-2xl">
+        <p class="max-w-lg px-6 mx-auto text-lg text-center md:mb-6 lg:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       <!-- Tabs/Panels Container -->
@@ -274,7 +266,7 @@
     <section id="accordion">
       <div class="container mx-auto">
         <h2 class="pt-10 mb-6 text-3xl font-semibold text-center md:text-4xl">Accordion</h2>
-        <p class="max-w-lg px-6 mx-auto mb-6 text-lg text-center text-black lg:text-2xl">
+        <p class="max-w-lg px-6 mx-auto mb-6 text-lg text-center lg:text-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </section>
@@ -288,7 +280,7 @@
           <!-- Accordion 1 -->
           <div class="py-1 border-b outline-none border-gray group" tabindex="1">
             <!-- Accordion Flex Container -->
-            <div class="flex items-center justify-between py-3 text-black transition duration-500 cursor-pointer group ease">
+            <div class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
               <!-- Accordion Title -->
               <div class="text-lg transition duration-500 ease group-hover:text-red-500">Accordion Title #1</div>
               <!-- Arrow -->
@@ -310,7 +302,7 @@
             <div
               class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
             >
-              <p class="py-2 text-justify text-black">
+              <p class="py-2 text-justify">
                 Accordion #1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
                 tempora voluptates iure quia fuga dicta voluptatibus culpa
@@ -322,7 +314,7 @@
           <!-- Accordion 2 -->
           <div class="py-1 border-b outline-none border-gray group" tabindex="2">
             <!-- Accordion Flex Container -->
-            <div class="flex items-center justify-between py-3 text-black transition duration-500 cursor-pointer group ease">
+            <div class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease">
               <!-- Accordion Title -->
               <div class="text-lg transition duration-500 ease group-hover:text-red-500"
               >Accordion Title #2</div>
@@ -345,7 +337,7 @@
             <div
               class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
             >
-              <p class="py-2 text-justify text-black">
+              <p class="py-2 text-justify">
                 Accordion #2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
                 tempora voluptates iure quia fuga dicta voluptatibus culpa
@@ -358,7 +350,7 @@
           <div class="py-1 border-b outline-none border-gray group" tabindex="3">
             <!-- Accordion Flex Container -->
             <div
-              class="flex items-center justify-between py-3 text-black transition duration-500 cursor-pointer group ease"
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease"
             >
               <!-- Accordion Title -->
               <div
@@ -384,7 +376,7 @@
             <div
               class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
             >
-              <p class="py-2 text-justify text-black">
+              <p class="py-2 text-justify">
                 Accordion 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
                 tempora voluptates iure quia fuga dicta voluptatibus culpa
@@ -397,7 +389,7 @@
           <div class="py-1 border-b outline-none border-gray group" tabindex="4">
             <!-- Accordion Flex Container -->
             <div
-              class="flex items-center justify-between py-3 text-black transition duration-500 cursor-pointer group ease"
+              class="flex items-center justify-between py-3 transition duration-500 cursor-pointer group ease"
             >
               <!-- Accordion Title -->
               <div
@@ -423,7 +415,7 @@
             <div
               class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
             >
-              <p class="py-2 text-justify text-black">
+              <p class="py-2 text-justify">
                 Tab 4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
                 repellat amet doloribus consequuntur eos similique provident
                 tempora voluptates iure quia fuga dicta voluptatibus culpa
