@@ -9,7 +9,6 @@
   .btn-secondary {
     @apply px-6 py-3 mt-4 font-semibold text-black border-2 border-gray-300 rounded-lg md:inline-flex bg-gray-300 hover:bg-white hover:text-black hover:border-black hover:border-2
   }
-
   .tab-name {
     @apply flex justify-center text-center text-black cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 md:text-2xl;
   }
@@ -17,7 +16,7 @@
     @apply py-2;
   }
   .tab-panel {
-    @apply flex flex-col py-5 md:flex-row md:space-x-7
+    @apply flex flex-col md:py-5 md:flex-row md:space-x-7
   }
   .tab-content {
     @apply flex flex-col space-y-8 md:w-1/2 ml-6
@@ -43,11 +42,21 @@
     right: 60%;
     @apply absolute rounded-r-full bg-softBlue;
   }
+} 
+
+#hero {
+  background-image: url(../images/night.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ficon:hover {
   filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg)
     brightness(101%) contrast(96%);
+}
+
+.border-gray {
+  border-color: #aaa
 }
 
 /* HAMBURGER MENU */
