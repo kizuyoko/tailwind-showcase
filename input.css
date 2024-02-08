@@ -11,7 +11,7 @@
   }
 
   .tab-name {
-    @apply flex justify-center text-center text-black cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 text-2xl;
+    @apply flex justify-center text-center text-black cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 md:text-2xl;
   }
   .tab-name div {
     @apply py-2;
@@ -23,7 +23,7 @@
     @apply flex flex-col space-y-8 md:w-1/2 ml-6
   }
   .tab-content h3 {
-    @apply mt-2 text-3xl font-semibold text-center md:mt-0 md:text-left;
+    @apply mt-6 text-3xl font-semibold text-center md:mt-0 md:text-left;
   }
   .tab-content p {
     @apply max-w-md text-center text-black md:text-left
