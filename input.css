@@ -18,6 +18,15 @@
   .btn-secondary {
     @apply px-6 py-3 mt-4 font-semibold text-black border-2 border-gray-300 rounded-lg md:inline-flex bg-gray-300 hover:bg-white hover:text-black hover:border-black hover:border-2
   }
+  .col3-content {
+    @apply flex flex-col space-y-8 md:w-1/2 ml-6
+  }
+  .col3-content h3 {
+    @apply mt-6 text-3xl font-semibold text-center md:mt-0;
+  }
+  .col3-content p {
+    @apply text-center
+  }
   .tab-name {
     @apply flex justify-center text-center cursor-pointer md:border-b-0 hover:text-softRed md:w-1/3 md:text-2xl;
   }
@@ -34,7 +43,7 @@
     @apply mt-6 text-3xl font-semibold text-center md:mt-0 md:text-left;
   }
   .tab-content p {
-    @apply max-w-md text-center  md:text-left
+    @apply text-center  md:text-left
   }
 }
 
