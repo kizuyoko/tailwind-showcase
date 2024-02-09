@@ -634,7 +634,6 @@ video {
 }
 
 .col3-content {
-  margin-left: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -647,6 +646,7 @@ video {
 
 @media (min-width: 768px) {
   .col3-content {
+    margin-left: 1.5rem;
     width: 50%;
   }
 }
@@ -837,16 +837,16 @@ video {
   margin-top: 1rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .block {
@@ -1403,6 +1403,10 @@ video {
 
   .md\:mt-12 {
     margin-top: 3rem;
+  }
+
+  .md\:ml-0 {
+    margin-left: 0px;
   }
 
   .md\:block {

@@ -19,7 +19,7 @@
     @apply px-6 py-3 mt-4 font-semibold text-black border-2 border-gray-300 rounded-lg md:inline-flex bg-gray-300 hover:bg-white hover:text-black hover:border-black hover:border-2
   }
   .col3-content {
-    @apply flex flex-col space-y-8 md:w-1/2 ml-6
+    @apply flex flex-col space-y-8 md:w-1/2 md:ml-6
   }
   .col3-content h3 {
     @apply mt-6 text-3xl font-semibold text-center md:mt-0;
