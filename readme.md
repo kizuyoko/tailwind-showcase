@@ -1,4 +1,5 @@
-## Tailwind showcase  
+## Tailwind showcase
+See the published page: [https://tailwind-showcase-2l1f.vercel.app/](https://tailwind-showcase-2l1f.vercel.app/)
 
 ## Usage
 
